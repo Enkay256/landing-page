@@ -1,0 +1,248 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  height: 100vh;
+}
+.first-section {
+  background-image: url(./bg-hero-desktop.svg);
+  background-color: hsl(193, 100%, 96%);
+}
+
+header button {
+  float: right;
+  margin: 40px 40px;
+  padding: 10px 20px 10px 20px;
+  width: 130px;
+  height: 30px;
+  border-radius: 18px;
+  border-style: none;
+  background-color: white;
+}
+header img {
+  margin: 40px 0px 0px 40px;
+  width: 130px;
+}
+.first-content {
+  display: flex;
+}
+.right img {
+  width: 500px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 250px;
+  margin-right: -150px;
+  float: right;
+}
+.left {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.left p {
+  margin-top: 30px;
+  line-break: inherit;
+  line-height: 1.5em;
+}
+.left button {
+  margin-top: 30px;
+  width: 160px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: hsl(322, 100%, 66%);
+}
+
+.second-content {
+  display: flex;
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
+  margin: 100px 70px 100px 70px;
+  box-shadow: -3px -3px 5px 5px rgb(249, 245, 245);
+}
+.second-right img {
+  max-width: 60%;
+  float: right;
+}
+.second-left {
+  margin-top: 70px;
+}
+.second-left p {
+  margin-top: 20px;
+  line-height: 1.5em;
+}
+.third-content {
+  display: flex;
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
+  margin: -70px 70px -70px 70px;
+  box-shadow: -3px -3px 5px 5px rgb(249, 245, 245);
+}
+.third-left img {
+  max-width: 60%;
+}
+.third-right {
+  margin-top: 7%;
+}
+.third-right p {
+  margin-top: 20px;
+  line-height: 1.5em;
+}
+.fourth-content {
+  display: flex;
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
+  margin: 100px 70px -70px 70px;
+  box-shadow: -3px -3px 5px 5px rgb(249, 245, 245);
+}
+.fourth-right img {
+  max-width: 60%;
+  float: right;
+}
+.fourth-left {
+  margin-top: 7%;
+}
+.fourth-left p {
+  margin-top: 20px;
+  line-height: 1.5em;
+}
+.last-content {
+  background-color: white;
+  padding: 70px;
+  width: 40%;
+  margin-bottom: -100px;
+  z-index: 10;
+  border-radius: 20px;
+  margin-top: 200px;
+  margin-left: 30%;
+  box-shadow: -3px -3px rgb(249, 245, 245);
+}
+.last-content h3 {
+  font-size: 24px;
+}
+.last-content button {
+  margin-left: 25%;
+  margin-top: 30px;
+  width: 160px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: hsl(322, 100%, 66%);
+}
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  width: 100%;
+  position: relative;
+  z-index: -1;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.intro {
+  margin-top: 11%;
+  color: white;
+}
+.intro-two {
+  margin-top: 11%;
+  color: white;
+}
+.item-b {
+  margin-top: 10px;
+}
+.item-c {
+  margin-top: 10px;
+}
+.social {
+  margin-top: 11%;
+  display: grid;
+}
+.fa-solid {
+  color: white;
+}
+.place {
+  margin-top: 20px;
+}
+.phone {
+  margin-top: 20px;
+}
+.mail {
+  margin-top: 20px;
+}
+.text {
+  margin-left: 10px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+.fa-brands {
+  color: white;
+}
+.fa-copyright{
+  margin-top: 70px;
+}
+
+footer img {
+  filter: brightness(0) invert(1);
+  max-height: 30px;
+  margin-top: 20%;
+}
+@media (max-height: 960px) {
+  .right img {
+    max-width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .fourth-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .third-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .second-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .first-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .right img {
+    max-width: 60%;
+  }
+
+  .last-content button {
+    margin: auto;
+  }
+  footer {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+@media (max-width: 650px) {
+  .right img {
+    margin: auto;
+    padding-top: 40px;
+  }
+  .last-content {
+    width: 60%;
+  }
+}
+@media (max-width: 450px) {
+  .last-content {
+    width: 80%;
+    margin-left: 20px;
+    margin-bottom: -20px;
+  }
+  header {
+    display: grid;
+  }
+}
