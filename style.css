@@ -184,7 +184,7 @@ footer {
 .fa-brands {
   color: white;
 }
-.fa-copyright{
+.fa-copyright {
   margin-top: 70px;
 }
 
@@ -234,15 +234,46 @@ footer img {
   }
   .last-content {
     width: 60%;
+    margin-top: 100px;
+    margin-left:20% ;
+  }
+  .second-content {
+    margin: 10px 10px 10px 10px;
+  }
+  .second-right img {
+    max-width: 80%;
+  }
+  .third-content {
+    margin: 10px 10px 10px 10px;
+  }
+  .third-left img {
+    max-width: 80%;
+  }
+  .fourth-content {
+    margin: 10px 10px 10px 10px;
+  }
+  .fourth-right img {
+    max-width: 80%;
   }
 }
 @media (max-width: 450px) {
   .last-content {
     width: 80%;
-    margin-left: 20px;
+    margin-left:10%;
     margin-bottom: -20px;
+    padding: 20px 20px 20px 60px;
+    
   }
   header {
     display: grid;
+  }
+  .second-right img {
+    max-width: 100%;
+  }
+  .third-left img {
+    max-width: 100%;
+  }
+  .fourth-right img {
+    max-width: 100%;
   }
 }
